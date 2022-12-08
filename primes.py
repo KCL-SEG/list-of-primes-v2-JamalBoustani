@@ -9,7 +9,7 @@ def primes(number_of_primes):
     prime_number = 2
     while count < number_of_primes:
         for n in range(2,prime_number):
-            if(number % n == 0):
+            if(prime_number % n == 0):
                 break
             else:
                 count+=1
