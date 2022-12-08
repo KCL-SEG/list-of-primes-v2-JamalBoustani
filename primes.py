@@ -12,8 +12,8 @@ def primes(number_of_primes):
             if(prime_number % n == 0):
                 break
            
-            count+=1
-            list.append(prime_number)
+        count+=1
+        list.append(prime_number)
         
         prime_number += 1
 
